@@ -3,7 +3,7 @@
 	padding: 0;
 	box-sizing: content-box;
 	color: black;
-	font-family: 'Hind', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 body {
@@ -18,42 +18,51 @@ body {
 .header {
 	height: 25vh;
 	width: 100vw;
-	background: rgb(255,255,255,0.05);
+	background: rgb(255,255,255,0.1);
 }
 
 .logo img {
 	padding: 20px;
-	height: 180px;
+	height: 21vh;
 }
 
 .logo{
-	width: 40%;
+	width: 25%;
 	float: left;
+	/*z-index: 1;*/
 }
 
 .button{
-	width: 60%;
+	width: 75%;
 	float: left;
+	font-size: 35px;
+	display: block;
+	/*padding-left: 1vw;*/
 }
 
 
 button {
 	color: black;
 	height: 50px;
-	width: 150px;
-	margin-top: 80px;
-	margin-right: 25px;
+	width: 210px;
+	margin-top: 15vh;
 	border: none;
 	background: transparent;
-	border-radius: 10px;
-	font-family: 'Anton', sans-serif;
-	font-size: 24px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: bolder;
+	font-size: 27px;
+	text-align: center;
+	/*z-index: 5;*/
+}
+
+#but {
+	margin-left: 2vw;
 }
 
 .search {
-	height: 10vh;
+	height: 15vh;
 	width: 100vw;
-	background:transparent;
+	/*background-color: rgb(255,255,255,0.1);*/
 }
 
 form.example input[type=text] {
@@ -63,9 +72,10 @@ form.example input[type=text] {
   width: 70%;
   background: #f1f1f1;
   align-content: center;
-  margin-top: 10px;
-  margin-left: 14vw;
+  margin-top: 1vh;
+  margin-left: 13vw;
   border-radius: 5px;
+  font-family: 'Hind', sans-serif;
 }
 
 
@@ -74,12 +84,12 @@ form.example button:hover {
 }
 
 .content {
-	height: 54.2vh;
+	height: 53vh;
 	width: 100vw;
 	background:transparent;
 }
 
-.left {
+/*.left {
 	width: 45vw;
 	float: left;
 }
@@ -105,7 +115,7 @@ form.example button:hover {
 .right > h1{
 	font-size: 48px;
 	font-family: 'Anton', sans-serif;
-	/*color: #E8EDEE;*/
+	color: #E8EDEE;
 	color: white;
 	margin-bottom: 20px;
 	margin-top: 50px;
@@ -114,15 +124,13 @@ form.example button:hover {
 .right > p{
 	font-size: 15px;
 	font-family: 'Anton', sans-serif;
-	/*color: #E8EDEE;*/
+	color: #E8EDEE;
 	color: white;
 	margin-bottom: 20px;
-}
-
-
+}*/
 
 footer {
-	height: 5vh;
+	height: 7vh;
 	width: 100vw;
 	background-color: #D6D5B3;
 	opacity: 0.5;
@@ -139,4 +147,31 @@ footer p{
 	content: " ";
 	display: block;
 	clear: both;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 461px){
+	.button{
+		display: none;
+	}
+
+	img {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media only screen and (max-width: 460px){
+	.button{
+		display: none;
+	}
+
+	img {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.logo{
+		background:transparent;
+		margin-left: 9vw;
+	}
 }
