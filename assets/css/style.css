@@ -115,11 +115,13 @@ footer p{
 footer .copy{
 	width: 30%;
 	float: left;
+	display: block;
 }
 
 footer .soc{
 	width: 70%;
 	float: right;
+	display: block;
 }
 
 i {
@@ -299,6 +301,118 @@ textarea {
 }
 
 @media only screen and (max-width: 460px){
+.container1{
+	overflow: hidden;
+}
 
+.logo{
+	width: 100vw;
+	position: relative;
+}
+
+.logo img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%);
+	padding: 20px;
+	height: 21vh;
+}
+
+footer .copy{
+	display: none;
+}
+
+footer .soc{
+	display: none;
+}
+
+.button{
+	display: none;
+}
+
+.container2 {
+	height: 300vh;
+}
+
+.greybox1 {
+	height: 200px;
+	width: 200px;	
+}
+
+.greybox2 {
+	height: 200px;
+	width: 200px;	
+}
+
+.greybox3 {
+	height: 200px;
+	width: 200px;	
+}
+
+/*next page*/
+
+.header2 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80vw;
+	height: 45vh;
+	background: transparent;
+	text-align: center;
+	margin-bottom: 70vh;
+}
+
+.header2 p {
+	margin-top: 18vh;
+	font-size: 30px;
+	color: #8e8e8e;
+}
+
+.box {
+	margin-bottom: 25vh;
+	height: 35vh;
+	width: 80vw;
+	float: none;
+	background: transparent;
+	text-align: center;
+}
+
+/*next page*/
+
+.header3 {
+	text-align: center;
+}
+
+/*next page*/
+
+.header4 {
+	text-align: center;
+}
+
+.header4 img {
+	float: none;
+}
+
+.content2 {
+	height: 50vh;
+	width: 100vw;
+	background: transparent;
+	padding: 2vh;
+}
+
+.content2 > p {
+	font-size: 15px;
+	width: 80%;
+	color: #8e8e8e;
+}
+
+.content2 > input {
+	width:50%;
+	font-size: 15px;
+}
+
+textarea {
+	width: 50%;
+}
 
 }
