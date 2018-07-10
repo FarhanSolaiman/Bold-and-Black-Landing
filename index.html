@@ -18,9 +18,14 @@
 	<!-- search bar -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+	<!-- add google font -->
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
 </head>
 <body>
-
 	<div class="header clear">
 		
 		<div class="logo">
@@ -28,10 +33,10 @@
 		</div>
 		
 		<div class="button">
-			<button type="button" id="but">SELECTIONS</button>|
-			<button type="button">HISTORY</button>|
-			<button type="button">CONTACT</button>|
-			<button type="button">SIGN IN/SIGN UP</button>
+			<button type="button" id="but" onclick="window.location.href='#amenities'">AMENITIES</button>|
+			<button type="button" onclick="window.location.href='#history'">HISTORY</button>|
+			<button type="button" onclick="window.location.href='#contact'">CONTACT</button>|
+			<button type="button" onclick="window.location.href='#amenities'">SIGN IN/SIGN UP</button>
 		</div>
 	</div>
 
@@ -44,35 +49,85 @@
 	</div>
 
 	<div class="content clear">
-			
-	<!-- 	<div class="left">
-
-				<img src="assets/images/wines.png">
-
-		</div>
-		<div class="right">
-			<h1>Top Wine Bar and Kitchen</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-		</div> -->
+		<p>#1 Top Rated Wine Bar & Kitchen in Metro Manila</p>
 
 	</div>
 
 	<footer>
+		<div class="copy">
 		<p>Tan Nan Wine Bar & Kitchen &copy;</p>
+		</div>
+		<div class="soc">
+			<i class="fab fa-blogger" id="blog"></i>
+			<i class="fab fa-facebook-square"></i>
+		</div>
 	</footer>
+<!-- next page -->
+<div class="container2" id="amenities">
+	
+	<div class="header2">
+		<img src="assets/images/logo3.png"><br>
+		<p>TAN NAN HAS THE BEST AMENITIES TO MAKE YOUR DINING EXPERIENCE MORE COMPFORTABLE</p>
+	</div>
 
+	<div class="amenities clear">
+		<div class="conbox">
+			<div class="box">
+				<div class="greybox1"></div>
+				<br>
+				<p>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT, SED DO EIUSMOD
+				TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA.</p>
+
+			</div>
+			<div class="box">
+				<div class="greybox2"></div>
+				<br>
+				<p>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT, SED DO EIUSMOD
+				TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA.</p>
+
+			</div>
+			<div class="box">
+				<div class="greybox3"></div>
+				<br>
+				<p>LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT, SED DO EIUSMOD
+				TEMPOR INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA.</p>
+
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<!-- next page -->
+
+<div class="container3 clear" id="history">
+	<div class="header3">
+		<img src="assets/images/logo3.png">
+	</div>
+
+
+</div>
+
+<!-- next page -->
+<div class="container4 clear" id="contact">
+	<div class="header4">
+		<img src="assets/images/logo3.png">
+	</div>
+
+	<div class="content2">
+		<p>Give us your comments and feedback, we surely appreciate your opinions.</p>
+		<p>Email:</p>
+		<input type="email" placeholder="juandelacruz@gmail.com">
+		<p>Comment/Feedback:</p>
+		<textarea placeholder="Give us your opinion here..."></textarea>
+	</div>
+
+	<div class="footer2">
+		
+	</div>
+
+
+</div>
 
 
 </body>
