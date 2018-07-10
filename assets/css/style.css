@@ -94,6 +94,7 @@ form.example button:hover {
 }
 
 .content p {
+	color: transparent;
 	font-family: 'Oswald', sans-serif;
 	-webkit-text-stroke:1px rgb(255,215,0,0.3);
 }
@@ -181,8 +182,8 @@ i {
 .greybox1 {
 	margin-left: auto;
 	margin-right: auto;
-	height: 70%;
-	width: 70%;
+	height: 200px;
+	width: 200px;
 	border-radius: 50%;
 	background-image: url(../images/bar.jpg);
 	background-position: center;
@@ -193,8 +194,8 @@ i {
 .greybox2 {
 	margin-left: auto;
 	margin-right: auto;
-	height: 70%;
-	width: 70%;
+	height: 200px;
+	width: 200px;
 	border-radius: 50%;
 	background-image: url(../images/res.gif);
 	background-position: center;
@@ -205,8 +206,8 @@ i {
 .greybox3 {
 	margin-left: auto;
 	margin-right: auto;
-	height: 70%;
-	width: 70%;
+	height: 200px;
+	width: 200px;
 	border-radius: 50%;
 	background-image: url(../images/lounge.jpg);
 	background-position: center;
@@ -244,6 +245,7 @@ i {
 	width: 100vw;
 	height: 100vh;
 	background: #232323;
+	overflow: hidden;
 }
 
 .header4 {
