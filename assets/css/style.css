@@ -321,7 +321,7 @@ textarea {
 
 footer .copy{
 	display: none;
-}
+} 
 
 footer .soc{
 	display: none;
@@ -413,6 +413,10 @@ footer .soc{
 
 textarea {
 	width: 50%;
+}
+
+.container3 {
+	background-attachment: fixed;
 }
 
 }
