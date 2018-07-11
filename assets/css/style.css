@@ -416,7 +416,7 @@ textarea {
 }
 
 .container3 {
-	background-attachment: fixed;
+	background-attachment: initial;
 }
 
 }
